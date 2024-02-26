@@ -30,7 +30,7 @@ try {
 
     //Recipients получатели
     $mail->setFrom('ppproweb@mail.ru', 'заявка с личного сайта по йоге');
-    $mail->addAddress('ppproweb@mail.ru', 'администратору сайта');     // Add a recipient
+    $mail->addAddress('chelovekizzet@gmail.com', 'администратору сайта');     // Add a recipient
 
     // Content
     $mail->isHTML(true);                                  // Set email format to HTML00
